@@ -3,9 +3,9 @@ import datetime, warnings
 import tensorboardX
 import numpy as np
 import torch.nn as nn
-from utils.config import opt
-from model import ScaleDense
-from model.ranking_loss import rank_difference_loss
+from utils_1.config import opt
+from model_1 import ScaleDense
+from model_1.ranking_loss import rank_difference_loss
 from load_data import IMG_Folder, transforms_img
 from prediction_first_stage import test
 from sklearn.metrics import mean_absolute_error
